@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    margin: 0;
+    margin: 20px;
+}
+#textarea{
+    height: 25px;
+    border: 1px solid rgb(9, 179, 247);
+    border-radius: 5px;
+}
+.button{
+    height: 27px;
+    border: 1px solid rgba(9, 179, 247);
+    border-radius: 5px;
+    background-color: rgba(9, 179, 247, 0.2);
+    color: rgba(9, 179, 247);
+}
+#tarefas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.task-item input{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+.task-item label{
+    font-size: 18px;
+}
+.task-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 215px;
+}
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
